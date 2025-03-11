@@ -7,10 +7,9 @@ Este es un catálogo personal de componentes web desarrollados con **Lit** y **R
 - **Componentes Web** en Lit.
 - **Catálogo Interactivo** hecho en React.
 - **Estilo Moderno** con TailwindCSS.
-- **Visualización y Documentación** con Storybook.
 - **Modo Dark/Light** personalizable.
 - **100% Responsivo**.
-- **Deploy sencillo** en Netlify.
+- **Deployed** en Netlify. //TODO
 
 ## Cómo ejecutar el proyecto
 1. Clona el repositorio:

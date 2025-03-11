@@ -15,7 +15,7 @@ Este es un catálogo personal de componentes web desarrollados con **Lit** y **R
 ## Cómo ejecutar el proyecto
 1. Clona el repositorio:
     ```bash
-    git clone <tu-repo>
+    git clone https://github.com/FelixGomezEnriquez/LitReactShelf.git
     ```
 2. Instala las dependencias:
     ```bash

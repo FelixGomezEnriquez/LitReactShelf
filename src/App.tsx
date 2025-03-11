@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/header";
-import Home from "./catalog/home/Home";
+import Home from "./catalog/home/home";
 import LitButtonPage from "./pages/button-preview/button-page";
 
 const App: React.FC = () => {

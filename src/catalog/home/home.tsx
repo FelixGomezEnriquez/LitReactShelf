@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-800 text-center p-10">
       <h1 className="text-4xl font-bold text-blue-500 dark:text-blue-300">
-        🚀 Catálogo de Componentes Lit + React
+        🚀 Catálogo de Componentes Lit
       </h1>
       <ul className="mt-10 space-y-4">
         <li>

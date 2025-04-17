@@ -1,6 +1,11 @@
 import { LitElement, html, css } from "lit";
+import { property } from "lit/decorators.js";
+import { ButtonVM } from "./button-model";
+class Button extends LitElement implements ButtonVM {
+  @property({ attribute: false }) handleClick = () => {
+    console.log("Texto por defecto");
+  };
 
-class Button extends LitElement {
   static get styles() {
     return css`
       button {
@@ -21,14 +26,14 @@ class Button extends LitElement {
 
   render() {
     return html`
-      <button @click=${this._handleClick}>
+      <button
+        @click=${() => {
+          this.handleClick();
+        }}
+      >
         <slot></slot>
       </button>
     `;
-  }
-
-  _handleClick() {
-    alert("¡Botón Lit presionado!");
   }
 }
 

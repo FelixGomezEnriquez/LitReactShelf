@@ -8,7 +8,7 @@ import ThemeToggle from "./../../catalog/theme-toogle/theme-toogle";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-blue-600 text-white p-4 shadow-md">
+    <header className="bg-blue-600 text-white p-4 shadow-md ">
       <nav className="container mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold">
           <Link to="/">LitReactShelf</Link>

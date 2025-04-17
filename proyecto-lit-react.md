@@ -4,7 +4,7 @@
 ## Stack técnico  
 - **React** con Vite (rápido, ligero y flexible)  
 - **Lit** para crear Web Components  
-- **TailwindCSS** para estilos (opcional, pero recomendable)  
+- **TailwindCSS** para estilos 
 - **Netlify** para deploy sencillo y gratuito  
 
 ---
